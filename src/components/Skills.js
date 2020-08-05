@@ -4,16 +4,20 @@ import { Card,CardTitle,CardHeader, CardBody, CardText } from 'reactstrap'
 function Skills(){
    
         return (
-         <Card style={{color:"#000",justifyContent:"center",alignSelf:"cemter"}}>
-         <CardHeader>
-         <CardTitle>
-         My Skills
-         </CardTitle>
-         </CardHeader>
-         <CardBody>
-         <CardText>bla bla </CardText>
-         </CardBody>
+         
+         <div>
+         <h1>My Skills</h1>
+         <hr></hr>
+         <div style={{display:'flex', flexDirection:'row'}}>
+         <img src="./banner.jpg"  alt=""></img>
+         
+         </div>
+       
+         <Card>
+
          </Card>
+        
+         </div>
         );      
 }
 

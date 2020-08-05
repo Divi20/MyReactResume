@@ -4,11 +4,13 @@ function Contact()
     {
         return (
           <div>
-          <h6>Feel free to Contact me anytime for Web Dev Projects/Opportunity or Startup.</h6>
-          <ul title="Contact Details">
-          <li>Phone Number: 9984902811</li>
-          <li>E-Mail: divyangisingh@outlook.com</li>
-          </ul>
+          <h4>Email: </h4>
+          <p>iankitdeshmukh2@gmail.com</p>
+          <h4>Phone Number: </h4>
+          <p> +91 9818029000</p>
+          <h4>Linkdin: </h4>
+          <p></p>
+          
           </div>
         );
     }

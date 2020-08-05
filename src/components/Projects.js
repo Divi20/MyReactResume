@@ -1,6 +1,6 @@
 import React from 'react'
 import {Card,  CardBody, CardTitle, CardText,Button, CardImg,CardDeck} from 'reactstrap'
-
+//import projects_data from '/Users/divyangisingh/Desktop/Interview/myresumereactapp/src/shared/projects_data.js'
 function Projects(){
    
         return (
@@ -8,7 +8,7 @@ function Projects(){
                 <hr/>
                     <h1>My Projects</h1>
                     <hr></hr>
-                        <CardDeck style={{display: 'flex', flexDirection: 'row',justifyContent:"center",paddingLeft:"10%",paddingRight:"10%"}}>
+                        <CardDeck style={{display: 'flex', flexDirection: 'row',justifyContent:"center",padding:'5% 10%',overflow:'scroll'}}>
                                 <Card style={{ width: '18rem',boxShadow:"0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)",marginRight:"5%",marginBottom:"5%"}}>
                                     <CardImg variant="top" src="./SD.jpg" style={{width:"15rem"}} />
                                     <CardBody>
@@ -43,28 +43,7 @@ function Projects(){
                                         <Button variant="primary">Go somewhere</Button>
                                     </CardBody>
                                 </Card>
-                                <Card style={{ width: '18rem',boxShadow:"0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)",marginRight:"5%",marginBottom:"5%"}}>
-                                    <CardImg variant="top" src="./bootweb.jpg" style={{width:"15rem"}} />
-                                    <CardBody>
-                                        <CardTitle>Card Title</CardTitle>
-                                        <CardText>
-                                         Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                        </CardText>
-                                        <Button variant="primary">Go somewhere</Button>
-                                    </CardBody>
-                                </Card>
-                                <Card style={{ width: '18rem',boxShadow:"0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22)",marginRight:"5%",marginBottom:"5%"}}>
-                                    <CardImg variant="top" src="./reactweb.jpg" style={{width:"15rem"}} />
-                                    <CardBody>
-                                        <CardTitle>Card Title</CardTitle>
-                                        <CardText>
-                                         Some quick example text to build on the card title and make up the bulk of
-                                        the card's content.
-                                        </CardText>
-                                        <Button variant="primary">Go somewhere</Button>
-                                    </CardBody>
-                                </Card>
+                             
                                
         </CardDeck>
          

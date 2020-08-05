@@ -17,39 +17,21 @@ import ShortProfile from './components/ShortProfile';
 function App() {
   return (
     <div className="App">
+    <span  style={{position:"sticky",top:'50%',left:'0%',height:'50px',width:'50px'}}><button>ContactMe</button></span>
     
       <header className="App-header">   
-      <div style={{display: 'flex', flexDirection: 'row',justifyContent:"right"}}>
-      
-      <div style={{display: 'flex', flexDirection: 'col',justifyContent:"center"}}>
-      <ShortProfile></ShortProfile>
-      
-      </div>
-      
-      <Summary></Summary>
-      
-      </div>
+      <img src="./banner.jpg" alt="" width="70%" height="70%"/>
       </header>
-    
-      
-     
-      
-      
-      
-      
-      
+      <hr></hr>
+      <div style={{display: 'flex', flexDirection: 'row',justifyContent:"space-between",padding:'10%'}}>
+        <ShortProfile></ShortProfile>
+        <Summary></Summary>
+      </div>
+      <hr></hr>
+      <Experience></Experience>
       <Projects></Projects>
      
-     
-      <div>
-      
-      <Blog></Blog>
-      <Skills></Skills>
-      <Experience></Experience>
-      
-     </div>
-     <Hobbies></Hobbies>
-    <footer><h6>Made by Divyangi Singh</h6>
+   <footer>
     <Contact></Contact>
     </footer>
     </div>
